@@ -3,6 +3,7 @@ import {RouteComponentProps} from 'react-router-dom';
 
 type TParams = { id: string };
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 function TodoItem({match}: RouteComponentProps<TParams>) {
     return (
         <div>
