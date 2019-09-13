@@ -6,7 +6,7 @@ import Todo from '../../views/Todo';
 import Login from '../../views/Login';
 import TodoItem from '../../views/TodoItem';
 
-function App() {
+const App: React.FC = () => {
     return (
         <Router>
             <div className="App">
@@ -18,6 +18,6 @@ function App() {
             </div>
         </Router>
     );
-}
+};
 
 export default App;

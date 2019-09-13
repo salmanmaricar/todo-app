@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function Nav() {
+const Nav: React.FC = () => {
     return (
         <nav>
             <h3>Logo</h3>
@@ -16,6 +16,6 @@ function Nav() {
             </ul>
         </nav>
     );
-}
+};
 
 export default Nav;
