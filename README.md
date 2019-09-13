@@ -9,13 +9,13 @@ For Git commit message guidance: [this article](https://chris.beams.io/posts/git
 - ~~.gitignore~~
 - ~~Integrate Travis CI~~
 - ~~Configure eslint~~
+- ~~react-router~~
 - husky
 - lint-staged
 - Jest code coverage
 - Travis build badge
 - Coveralls code coverage badge
 - react-testing-library
-- react-router
 - history
 - redux
 - redux-actions-helper
