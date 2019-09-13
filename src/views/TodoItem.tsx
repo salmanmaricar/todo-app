@@ -1,15 +1,18 @@
-import React from 'react';
-import {RouteComponentProps} from 'react-router-dom';
+import React from "react";
+import { match } from "react-router-dom";
 
-type TParams = { id: string };
-
-// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
-function TodoItem({match}: RouteComponentProps<TParams>) {
-    return (
-        <div>
-            <h1>TodoItem: {match.params.id} </h1>
-        </div>
-    );
+interface TodoItemInterface {
+  match: match<Identifiable>;
 }
 
-export default TodoItem;
+interface Identifiable {
+  id: string;
+}
+
+export const TodoItem: React.FC<TodoItemInterface> = (
+  props: TodoItemInterface
+) => (
+  <div>
+    <h1>TodoItem: {props.match.params.id} </h1>
+  </div>
+);
