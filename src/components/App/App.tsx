@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router, Route} from "react-router-dom";
-import Nav from "../../views/Nav";
-import Todo from "../../views/Todo";
-import Login from "../../views/Login";
-import TodoItem from "../../views/TodoItem";
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import Nav from '../../views/Nav';
+import Todo from '../../views/Todo';
+import Login from '../../views/Login';
+import TodoItem from '../../views/TodoItem';
 
 function App() {
     return (
